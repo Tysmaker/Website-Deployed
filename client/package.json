@@ -7,8 +7,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "dev": "concurrently 'vite' \"nodemon ../server.js\"",
     "build": "vite build",
+    "dev": "concurrently 'vite' \"nodemon ../server.js\"",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
     
